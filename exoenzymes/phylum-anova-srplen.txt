@@ -1,0 +1,56 @@
+               Df Sum Sq Mean Sq F value Pr(>F)    
+group           5  59941   11988   237.2 <2e-16 ***
+Residuals   11957 604249      51                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = cs.start ~ group, data = dats[set == "SignalP 5", ])
+
+$group
+                                       diff        lwr        upr     p adj
+Dictyoglomota-Atribacterota     -2.27132310 -3.3746650 -1.1679812 0.0000001
+Other Gram --Atribacterota       1.83152357  1.2750408  2.3880064 0.0000000
+Synergistota-Atribacterota       1.79849455  0.4123518  3.1846373 0.0029896
+Thermotogota-Atribacterota      -3.00010248 -3.5427766 -2.4574284 0.0000000
+Verrucomicrobiota-Atribacterota  2.41336335  1.6029033  3.2238234 0.0000000
+Other Gram --Dictyoglomota       4.10284667  3.0447484  5.1609449 0.0000000
+Synergistota-Dictyoglomota       4.06981766  2.4171560  5.7224793 0.0000000
+Thermotogota-Dictyoglomota      -0.72877938 -1.7796809  0.3221221 0.3558872
+Verrucomicrobiota-Dictyoglomota  4.68468645  3.4735943  5.8957787 0.0000000
+Synergistota-Other Gram -       -0.03302902 -1.3834364  1.3173784 0.9999998
+Thermotogota-Other Gram -       -4.83162605 -5.2751390 -4.3881132 0.0000000
+Verrucomicrobiota-Other Gram -   0.58183978 -0.1658594  1.3295389 0.2294111
+Thermotogota-Synergistota       -4.79859704 -6.1433730 -3.4538211 0.0000000
+Verrucomicrobiota-Synergistota   0.61486880 -0.8584854  2.0882230 0.8421197
+Verrucomicrobiota-Thermotogota   5.41346583  4.6759863  6.1509454 0.0000000
+
+               Df Sum Sq Mean Sq F value Pr(>F)    
+group           5  12838    2568   122.5 <2e-16 ***
+Residuals   10594 222013      21                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = cs.start ~ group, data = dats[set == "SignalP 4.1 &\nSignalP 5", ])
+
+$group
+                                      diff        lwr        upr     p adj
+Dictyoglomota-Atribacterota     -1.8128997 -3.1747331 -0.4510664 0.0020634
+Other Gram --Atribacterota       0.1262039 -0.3528670  0.6052748 0.9754135
+Synergistota-Atribacterota       1.4608240  0.4039342  2.5177139 0.0011558
+Thermotogota-Atribacterota      -2.7337201 -3.2822335 -2.1852067 0.0000000
+Verrucomicrobiota-Atribacterota  0.3411615 -0.2124453  0.8947683 0.4942656
+Other Gram --Dictyoglomota       1.9391036  0.6426964  3.2355109 0.0002931
+Synergistota-Dictyoglomota       3.2737238  1.6711699  4.8762777 0.0000001
+Thermotogota-Dictyoglomota      -0.9208204 -2.2444630  0.4028223 0.3522145
+Verrucomicrobiota-Dictyoglomota  2.1540612  0.8282998  3.4798227 0.0000541
+Synergistota-Other Gram -        1.3346201  0.3634879  2.3057524 0.0012663
+Thermotogota-Other Gram -       -2.8599240 -3.2162225 -2.5036254 0.0000000
+Verrucomicrobiota-Other Gram -   0.2149576 -0.1491334  0.5790486 0.5432651
+Thermotogota-Synergistota       -4.1945441 -5.2017461 -3.1873421 0.0000000
+Verrucomicrobiota-Synergistota  -1.1196625 -2.1296474 -0.1096776 0.0197154
+Verrucomicrobiota-Thermotogota   3.0748816  2.6233063  3.5264569 0.0000000
+

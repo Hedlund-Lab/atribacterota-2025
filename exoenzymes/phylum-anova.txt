@@ -1,0 +1,92 @@
+              Df Sum Sq Mean Sq F value Pr(>F)    
+phylum         4  385.3   96.32   356.6 <2e-16 ***
+Residuals   8078 2181.9    0.27                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = hydrophobicity ~ phylum, data = dats[set == "SignalP 5", ])
+
+$phylum
+                                       diff         lwr         upr     p adj
+Dictyoglomota-Atribacterota      0.17199810  0.09477711  0.24921909 0.0000000
+Synergistota-Atribacterota      -0.31008895 -0.40710120 -0.21307670 0.0000000
+Thermotogota-Atribacterota       0.19089496  0.15290401  0.22888590 0.0000000
+Verrucomicrobiota-Atribacterota -0.47904637 -0.53577108 -0.42232166 0.0000000
+Synergistota-Dictyoglomota      -0.48208705 -0.59774917 -0.36642493 0.0000000
+Thermotogota-Dictyoglomota       0.01889686 -0.05465354  0.09244725 0.9563184
+Verrucomicrobiota-Dictyoglomota -0.65104447 -0.73580320 -0.56628575 0.0000000
+Thermotogota-Synergistota        0.50098391  0.40686719  0.59510062 0.0000000
+Verrucomicrobiota-Synergistota  -0.16895742 -0.27207065 -0.06584420 0.0000774
+Verrucomicrobiota-Thermotogota  -0.66994133 -0.72155792 -0.61832474 0.0000000
+
+              Df Sum Sq Mean Sq F value Pr(>F)    
+phylum         4  324.4   81.11   608.9 <2e-16 ***
+Residuals   4470  595.5    0.13                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = hydrophobicity ~ phylum, data = dats[set == "SignalP 4.1 &\nSignalP 5", ])
+
+$phylum
+                                       diff         lwr        upr     p adj
+Dictyoglomota-Atribacterota      0.05175004 -0.05220522  0.1557053 0.6543834
+Synergistota-Atribacterota      -0.21983581 -0.30051327 -0.1391583 0.0000000
+Thermotogota-Atribacterota       0.11298576  0.07111511  0.1548564 0.0000000
+Verrucomicrobiota-Atribacterota -0.48465895 -0.52691842 -0.4423995 0.0000000
+Synergistota-Dictyoglomota      -0.27158585 -0.39391646 -0.1492552 0.0000001
+Thermotogota-Dictyoglomota       0.06123572 -0.03980426  0.1622757 0.4629499
+Verrucomicrobiota-Dictyoglomota -0.53640899 -0.63761071 -0.4352073 0.0000000
+Thermotogota-Synergistota        0.33282157  0.25593702  0.4097061 0.0000000
+Verrucomicrobiota-Synergistota  -0.26482315 -0.34192013 -0.1877262 0.0000000
+Verrucomicrobiota-Thermotogota  -0.59764472 -0.63211562 -0.5631738 0.0000000
+
+              Df Sum Sq Mean Sq F value   Pr(>F)    
+phylum         4    192   47.92   17.73 1.69e-14 ***
+Residuals   8078  21840    2.70                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = pI ~ phylum, data = dats[set == "SignalP 5", ])
+
+$phylum
+                                       diff          lwr          upr     p adj
+Dictyoglomota-Atribacterota      0.15830432 -0.086008208  0.402616856 0.3925430
+Synergistota-Atribacterota      -0.30404480 -0.610973119  0.002883528 0.0536228
+Thermotogota-Atribacterota       0.12712991  0.006933783  0.247326041 0.0319895
+Verrucomicrobiota-Atribacterota -0.32475225 -0.504218438 -0.145286053 0.0000080
+Synergistota-Dictyoglomota      -0.46234912 -0.828282078 -0.096416161 0.0051572
+Thermotogota-Dictyoglomota      -0.03117441 -0.263873882  0.201525058 0.9961983
+Verrucomicrobiota-Dictyoglomota -0.48305657 -0.751217059 -0.214896079 0.0000090
+Thermotogota-Synergistota        0.43117471  0.133407305  0.728942110 0.0007486
+Verrucomicrobiota-Synergistota  -0.02070745 -0.346938091  0.305523191 0.9997990
+Verrucomicrobiota-Thermotogota  -0.45188216 -0.615187223 -0.288577092 0.0000000
+
+              Df Sum Sq Mean Sq F value   Pr(>F)    
+phylum         4     61  15.159   7.931 2.29e-06 ***
+Residuals   4470   8544   1.911                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = pI ~ phylum, data = dats[set == "SignalP 4.1 &\nSignalP 5", ])
+
+$phylum
+                                        diff         lwr         upr     p adj
+Dictyoglomota-Atribacterota      0.253956391 -0.13981431  0.64772709 0.3973483
+Synergistota-Atribacterota       0.209844532 -0.09575252  0.51544159 0.3316382
+Thermotogota-Atribacterota       0.205809816  0.04720854  0.36441109 0.0036887
+Verrucomicrobiota-Atribacterota -0.035845318 -0.19591935  0.12422872 0.9733889
+Synergistota-Dictyoglomota      -0.044111859 -0.50748631  0.41926259 0.9989996
+Thermotogota-Dictyoglomota      -0.048146575 -0.43087453  0.33458138 0.9970200
+Verrucomicrobiota-Dictyoglomota -0.289801709 -0.67314231  0.09353889 0.2364792
+Thermotogota-Synergistota       -0.004034716 -0.29526466  0.28719522 0.9999995
+Verrucomicrobiota-Synergistota  -0.245689849 -0.53772446  0.04634476 0.1463185
+Verrucomicrobiota-Thermotogota  -0.241655133 -0.37222701 -0.11108326 0.0000046
+

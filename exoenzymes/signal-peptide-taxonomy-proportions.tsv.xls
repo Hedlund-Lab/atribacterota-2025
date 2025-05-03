@@ -1,0 +1,70 @@
+set	phylum	N	taxon	P
+signalp5	Actinobacteriota	15	Caldatribacteriota	0.00744416873449132
+signalp5	Aquificota	6	Caldatribacteriota	0.00297766749379653
+signalp5	Bacteroidota	4	Caldatribacteriota	0.00198511166253102
+signalp5	Chloroflexota	6	Caldatribacteriota	0.00297766749379653
+signalp5	Cyanobacteria	1	Caldatribacteriota	0.000496277915632754
+signalp5	Desulfobacterota	3	Caldatribacteriota	0.00148883374689826
+signalp5	DUMJ	1	Caldatribacteriota	0.000496277915632754
+signalp5	Firmicutes	31	Caldatribacteriota	0.0153846153846154
+signalp5	Krumholzibacteriota	2	Caldatribacteriota	0.000992555831265509
+signalp5	Methylomirabilota	2	Caldatribacteriota	0.000992555831265509
+signalp5	Omnitrophota	1	Caldatribacteriota	0.000496277915632754
+signalp5	Proteobacteria	5	Caldatribacteriota	0.00248138957816377
+signalp5	Spirochaetota	5	Caldatribacteriota	0.00248138957816377
+signalp5	Thermoplasmatota	1	Caldatribacteriota	0.000496277915632754
+signalp5	Thermotogota	1	Caldatribacteriota	0.000496277915632754
+signalp5	Verrucomicrobia	1	Caldatribacteriota	0.000496277915632754
+intersect	Chloroflexota	1	Caldatribacteriota	0.00118483412322275
+signalp5	Acidobacteriota	3	Thermotogota	0.000663129973474801
+signalp5	Actinobacteriota	3	Thermotogota	0.000663129973474801
+signalp5	Bacteroidota	5	Thermotogota	0.001105216622458
+signalp5	Bipolaricaulota	1	Thermotogota	0.0002210433244916
+signalp5	Caldisericota	2	Thermotogota	0.000442086648983201
+signalp5	Chloroflexota	9	Thermotogota	0.0019893899204244
+signalp5	Cloacimonadota	3	Thermotogota	0.000663129973474801
+signalp5	Desulfobacterota	5	Thermotogota	0.001105216622458
+signalp5	DTU	2	Thermotogota	0.000442086648983201
+signalp5	Firmicutes	49	Thermotogota	0.0108311229000884
+signalp5	Halobacteriota	8	Thermotogota	0.0017683465959328
+signalp5	Marinisomatota	1	Thermotogota	0.0002210433244916
+signalp5	Myxococcota	1	Thermotogota	0.0002210433244916
+signalp5	Nitrospirota	1	Thermotogota	0.0002210433244916
+signalp5	Omnitrophota	1	Thermotogota	0.0002210433244916
+signalp5	Planctomycetota	1	Thermotogota	0.0002210433244916
+signalp5	Proteobacteria	6	Thermotogota	0.0013262599469496
+signalp5	Spirochaetota	10	Thermotogota	0.002210433244916
+signalp5	Synergistetes	3	Thermotogota	0.000663129973474801
+signalp5	Thermodesulfobiota	2	Thermotogota	0.000442086648983201
+signalp5	Thermoproteota	1	Thermotogota	0.0002210433244916
+signalp5	UBP	2	Thermotogota	0.000442086648983201
+intersect	Firmicutes	1	Thermotogota	0.0005824111822947
+intersect	Spirochaetota	1	Thermotogota	0.0005824111822947
+signalp5	Asgardarchaeota	1	Dictyoglomota	0.00246913580246914
+signalp5	Bacteroidota	1	Dictyoglomota	0.00246913580246914
+signalp5	Desulfobacterota	2	Dictyoglomota	0.00493827160493827
+signalp5	Firmicutes	3	Dictyoglomota	0.00740740740740741
+signalp5	Acidobacteriota	2	Verrucomicrobia	0.0022075055187638
+signalp5	Actinobacteriota	2	Verrucomicrobia	0.0022075055187638
+signalp5	Bacteroidota	1	Verrucomicrobia	0.0011037527593819
+signalp5	Chloroflexota	4	Verrucomicrobia	0.00441501103752759
+signalp5	Desulfobacterota	1	Verrucomicrobia	0.0011037527593819
+signalp5	Firmicutes	1	Verrucomicrobia	0.0011037527593819
+signalp5	Gemmatimonadota	1	Verrucomicrobia	0.0011037527593819
+signalp5	Marinisomatota	1	Verrucomicrobia	0.0011037527593819
+signalp5	Planctomycetota	2	Verrucomicrobia	0.0022075055187638
+signalp5	Proteobacteria	12	Verrucomicrobia	0.0132450331125828
+signalp5	Actinobacteriota	1	Synergistetes	0.00418410041841004
+signalp5	Bacteroidota	1	Synergistetes	0.00418410041841004
+signalp5	Chloroflexota	1	Synergistetes	0.00418410041841004
+signalp5	Desulfobacterota	2	Synergistetes	0.00836820083682008
+signalp5	Firmicutes	5	Synergistetes	0.0209205020920502
+signalp5	Nitrospirota	1	Synergistetes	0.00418410041841004
+signalp5	Thermotogota	1	Synergistetes	0.00418410041841004
+signalp5	Unassigned		Caldatribacteriota	0.957816377171216
+intersect	Unassigned		Caldatribacteriota	0.998815165876777
+signalp5	Unassigned		Thermotogota	0.973695844385499
+intersect	Unassigned		Thermotogota	0.998835177635411
+signalp5	Unassigned		Dictyoglomota	0.982716049382716
+signalp5	Unassigned		Verrucomicrobia	0.970198675496689
+signalp5	Unassigned		Synergistetes	0.94979079497908
